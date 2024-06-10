@@ -273,6 +273,7 @@ public
 			ButtonProcessCon3: port Button3.ButtonSignal -> ButtonProcess3.GetButtonSignal;
 			ButtonProcessCon4: port Button4.ButtonSignal -> ButtonProcess4.GetButtonSignal;
 			
+			
 			ButtonProcessBoxProcessConn1: port  ButtonProcess1.SendButtonSignal -> BoxProcess.ManageButton1;
 			ButtonProcessBoxProcessConn2: port  ButtonProcess2.SendButtonSignal -> BoxProcess.ManageButton2;
 			ButtonProcessBoxProcessConn3: port  ButtonProcess3.SendButtonSignal -> BoxProcess.ManageButton3;

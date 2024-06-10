@@ -1,0 +1,88 @@
+Bound Resource Budget Analysis Report
+
+
+Processor Summary Report: 
+  Processor processor1: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of processor1
+  Processor processor2: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of processor2
+  Processor processor3: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of processor3
+  Processor processor4: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of processor4
+  Processor ButtonProcessor1: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of ButtonProcessor1
+  Processor ButtonProcessor2: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of ButtonProcessor2
+  Processor ButtonProcessor3: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of ButtonProcessor3
+  Processor ButtonProcessor4: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of ButtonProcessor4
+  Processor ControlBoxProcessor: Total MIPS 0,120 MIPS of bound tasks within MIPS capacity 1,200 MIPS of ControlBoxProcessor
+
+Memory Summary Report: 
+  No Memory with Memory_Size or RAMCapacity or ROMCapacity
+
+
+Detailed Workload Report:  for Processor processor1 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread LightProcess1.task,   0,000 MIPS,  0,120 MIPS,
+process LightProcess1, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.LightProcess1 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor processor2 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread LightProcess2.task,   0,000 MIPS,  0,120 MIPS,
+process LightProcess2, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.LightProcess2 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor processor3 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread LightProcess3.task,   0,000 MIPS,  0,120 MIPS,
+process LightProcess3, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.LightProcess3 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor processor4 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread LightProcess4.task,   0,000 MIPS,  0,120 MIPS,
+process LightProcess4, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.LightProcess4 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor ButtonProcessor1 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread ButtonProcess1.ButtonTask,   0,000 MIPS,  0,120 MIPS,
+process ButtonProcess1, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.ButtonProcess1 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor ButtonProcessor2 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread ButtonProcess2.ButtonTask,   0,000 MIPS,  0,120 MIPS,
+process ButtonProcess2, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.ButtonProcess2 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor ButtonProcessor3 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread ButtonProcess3.ButtonTask,   0,000 MIPS,  0,120 MIPS,
+process ButtonProcess3, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.ButtonProcess3 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor ButtonProcessor4 with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread ButtonProcess4.ButtonTask,   0,000 MIPS,  0,120 MIPS,
+process ButtonProcess4, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.ButtonProcess4 total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
+
+
+Detailed Workload Report:  for Processor ControlBoxProcessor with Capacity 1,200 MIPS
+
+Component,Budget,Actual
+  thread BoxProcess.BoxLightsTask,   0,000 MIPS,  0,120 MIPS,
+process BoxProcess, 0,800 MIPS,0,120 MIPS,process trafficLights_impl_Instance.BoxProcess total 0,120 MIPS below budget 0,800 MIPS (85,0 % slack)
+Total,,0,120 MIPS
