@@ -1,0 +1,6 @@
+Check connection binding consistency Report
+
+ERROR:  Button1.ButtonSignal -> ButtonProcess1.GetButtonSignal: Hardware (processor or device) of connection source and destination are not physically connected by bus.
+ERROR:  Button2.ButtonSignal -> ButtonProcess2.GetButtonSignal: Hardware (processor or device) of connection source and destination are not physically connected by bus.
+ERROR:  Button3.ButtonSignal -> ButtonProcess3.GetButtonSignal: Hardware (processor or device) of connection source and destination are not physically connected by bus.
+ERROR:  Button4.ButtonSignal -> ButtonProcess4.GetButtonSignal: Hardware (processor or device) of connection source and destination are not physically connected by bus.
