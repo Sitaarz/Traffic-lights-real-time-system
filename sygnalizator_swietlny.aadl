@@ -1,0 +1,354 @@
+package sygnalizator_swietlny
+public
+	with Base_Types;
+	with Data_Model;
+	with sei;
+	
+	data SignalizerColour
+		properties
+			Data_Model::Data_Representation => Enum;
+	end SignalizerColour;	
+	
+	
+	
+	
+
+	device Button
+			features
+				ButtonSignal: out data port Base_Types::Boolean;
+				eth_bus: requires bus access ethernet;
+			properties
+				SEI::GrossWeight => 5.0kg;
+				
+				SEI::MIPSBudget => 0.8 mips;
+				
+	end Button;
+	
+	device implementation Button.impl
+		
+	end Button.impl;
+	
+	
+	
+	
+	
+	
+	
+	device TrafficLight
+	features
+		LightColour: in data port SignalizerColour;
+		eth_bus: requires bus access ethernet;
+		properties
+			SEI::GrossWeight => 17.0kg;
+			
+			SEI::MIPSBudget => 0.8 mips;
+	end TrafficLight;
+
+	device implementation TrafficLight.impl
+	end TrafficLight.impl;	
+	
+	
+	
+	
+	
+	
+	bus ethernet
+		properties
+			    SEI::BandWidthCapacity => 2.0 MBytesps;
+  				SEI::BandWidthBudget => 200.0 KBytesps;
+  				
+		    	Transmission_Time => [Fixed => 1ns..2ns; PerByte => 5ns ..6ns;];
+		    	Period => 1 ms;
+		    	
+		    	SEI::GrossWeight => 1.7kg;
+	end ethernet;
+	
+	
+	
+	
+	
+	
+	processor intel_core_i7
+		features
+			eth: requires bus access ethernet;
+		properties
+		   Scheduling_Protocol => (Round_Robin_Protocol);
+		   Clock_Period => 1 ms;
+		   
+		   SEI::GrossWeight => 1.7kg;
+	
+		   Timing_Properties::Processor_Capacity => 1.0 MIPS;
+		   SEI::MIPSCapacity => 1.2 mips;
+	end intel_core_i7;
+	
+	
+	
+	
+	
+	
+	thread newColour
+	  features
+	    ChangeColour : out data port SignalizerColour; -- np. Base_Types::Character;
+	  properties
+	    Dispatch_Protocol => Periodic;
+	    Dispatch_Offset => 	2ms;
+	    Deadline => 15ms;	
+	    Period => 20ms;
+	    Compute_Execution_Time => 0ms..2ms;	
+	end newColour;
+	 
+	thread implementation newColour.impl
+	end newColour.impl;
+	
+	
+	
+	
+	
+	process LightsProcess
+		features
+			GetColour: in data port SignalizerColour;
+			ChangeColour : out data port SignalizerColour;
+		properties
+			  SEI::MIPSBudget => 0.8 mips;
+	end LightsProcess;
+	
+	process implementation LightsProcess.impl
+	   subcomponents
+	     task: thread newColour.impl;
+       properties
+		SEI::MIPSBudget => 0.8 mips;
+		
+	end LightsProcess.impl;
+	
+	
+	
+	
+	thread BoxLightsManageThread
+	  features
+	    ChangeColour : out data port SignalizerColour; -- np. Base_Types::Character;
+	  properties
+	    Dispatch_Protocol => Periodic;
+	    Dispatch_Offset => 	2ms;
+	    Deadline => 15ms;	
+	    Period => 20ms;
+	    Compute_Execution_Time => 0ms..2ms;	
+	end BoxLightsManageThread;
+	 
+	thread implementation BoxLightsManageThread.impl
+	end BoxLightsManageThread.impl;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	process BoxProcess
+		features
+			ManageLights : out data port SignalizerColour;
+			ManageButton1 :	in data port Base_Types::Boolean;
+			ManageButton2 :	in data port Base_Types::Boolean;
+			ManageButton3 :	in data port Base_Types::Boolean;
+			ManageButton4 :	in data port Base_Types::Boolean;
+		properties
+			  SEI::MIPSBudget => 0.8 mips;
+	end BoxProcess;
+	
+	
+	process implementation BoxProcess.impl
+	   subcomponents
+	     BoxLightsTask: thread BoxLightsManageThread.impl;
+		connections
+			C1: port BoxLightsTask.ChangeColour -> ManageLights;
+       properties
+		SEI::MIPSBudget => 0.8 mips;
+		
+	end BoxProcess.impl;
+	
+	
+	
+	
+	
+	
+	
+	
+	thread ButtonThread
+	  features
+	    SendSignal : out data port Base_Types::Boolean; 
+	    GetSignal: in data port Base_Types::Boolean;
+	  properties
+	    Dispatch_Protocol => Periodic;
+	    Dispatch_Offset => 	2ms;
+	    Deadline => 15ms;	
+	    Period => 20ms;
+	    Compute_Execution_Time => 0ms..2ms;	
+	end ButtonThread;
+	 
+	thread implementation ButtonThread.impl
+	end ButtonThread.impl;
+	
+	
+	process ButtonProcess
+		features
+			GetButtonSignal : in data port Base_Types::Boolean; 
+			SendButtonSignal: out data port Base_Types::Boolean; 
+		properties
+			  SEI::MIPSBudget => 0.8 mips;
+	end ButtonProcess;
+	
+	
+	process implementation ButtonProcess.impl
+	   subcomponents
+	     ButtonTask: thread ButtonThread.impl;
+		connections
+			C1: port ButtonTask.SendSignal -> SendButtonSignal;
+       properties
+		SEI::MIPSBudget => 0.8 mips;
+		
+			
+		
+	end ButtonProcess.impl;
+	
+	
+	
+	
+	system trafficLights
+	end trafficLights;
+	
+	system implementation trafficLights.impl
+		subcomponents
+			Light1: device TrafficLight.impl;
+			Light2: device TrafficLight.impl;
+			Light3: device TrafficLight.impl;
+			Light4: device TrafficLight.impl;
+			
+			Button1: device Button.impl;
+			Button2: device Button.impl;
+			Button3: device Button.impl;
+			Button4: device Button.impl;
+			
+			
+			
+		  	processor1: processor intel_core_i7;
+		  	processor2: processor intel_core_i7;
+		  	processor3: processor intel_core_i7;
+		  	processor4: processor intel_core_i7;
+		  	
+		  	ButtonProcessor1: processor intel_core_i7;
+		  	ButtonProcessor2: processor intel_core_i7;
+		  	ButtonProcessor3: processor intel_core_i7;
+		  	ButtonProcessor4: processor intel_core_i7;
+		  	
+		  	ControlBoxProcessor: processor intel_core_i7;
+		  	
+		  	
+		  	
+		  	
+		  	ButtonProcess1: process ButtonProcess.impl;
+		  	ButtonProcess2: process ButtonProcess.impl;
+		  	ButtonProcess3: process ButtonProcess.impl;
+		  	ButtonProcess4: process ButtonProcess.impl;
+		  	
+		  	
+		  	LightProcess1: process LightsProcess.impl;
+		  	LightProcess2: process LightsProcess.impl;
+		  	LightProcess3: process LightsProcess.impl;
+		  	LightProcess4: process LightsProcess.impl;
+		  	
+		  	
+		  	BoxProcess: process BoxProcess.impl;
+		  	
+		  	
+		  	
+		  	Mag_bus : bus ethernet;
+		  	
+		connections
+			
+			ButtonProcessCon1: port Button1.ButtonSignal -> ButtonProcess1.GetButtonSignal;
+			ButtonProcessCon2: port Button2.ButtonSignal -> ButtonProcess2.GetButtonSignal;
+			ButtonProcessCon3: port Button3.ButtonSignal -> ButtonProcess3.GetButtonSignal;
+			ButtonProcessCon4: port Button4.ButtonSignal -> ButtonProcess4.GetButtonSignal;
+			
+			ButtonProcessBoxProcessConn1: port  ButtonProcess1.SendButtonSignal -> BoxProcess.ManageButton1;
+			ButtonProcessBoxProcessConn2: port  ButtonProcess2.SendButtonSignal -> BoxProcess.ManageButton2;
+			ButtonProcessBoxProcessConn3: port  ButtonProcess3.SendButtonSignal -> BoxProcess.ManageButton3;
+			ButtonProcessBoxProcessConn4: port  ButtonProcess4.SendButtonSignal -> BoxProcess.ManageButton4;
+			
+			
+			BoxProcessLightProcessConn1: port BoxProcess.ManageLights -> LightProcess1.GetColour;
+			BoxProcessLightProcessConn2: port BoxProcess.ManageLights -> LightProcess2.GetColour;
+			BoxProcessLightProcessConn3: port BoxProcess.ManageLights -> LightProcess3.GetColour;
+			BoxProcessLightProcessConn4: port BoxProcess.ManageLights -> LightProcess4.GetColour;
+			
+			
+			LightProcessLightDeviceConn1: port LightProcess1.ChangeColour -> Light1.LightColour;
+			LightProcessLightDeviceConn2: port LightProcess2.ChangeColour -> Light2.LightColour;
+			LightProcessLightDeviceConn3: port LightProcess3.ChangeColour -> Light3.LightColour;
+			LightProcessLightDeviceConn4: port LightProcess4.ChangeColour -> Light4.LightColour;
+			
+			
+			eth1: bus access Mag_bus -> processor1.eth;
+			eth2: bus access Mag_bus -> processor2.eth;
+			eth3: bus access Mag_bus -> processor3.eth;
+			eth4: bus access Mag_bus -> processor4.eth;
+			
+			EthButtonProcessor1: bus access Mag_bus -> ButtonProcessor1.eth;
+			EthButtonProcessor2: bus access Mag_bus -> ButtonProcessor2.eth;
+			EthButtonProcessor3: bus access Mag_bus -> ButtonProcessor3.eth;
+			EthButtonProcessor4: bus access Mag_bus -> ButtonProcessor4.eth;
+			
+			EthControlBoxProcessor: bus access Mag_bus -> ControlBoxProcessor.eth;
+			
+			C1: bus access Light1.eth_bus -> Mag_bus;
+			C2: bus access Light2.eth_bus -> Mag_bus;
+			C3: bus access Light3.eth_bus -> Mag_bus;
+			C4: bus access Light4.eth_bus -> Mag_bus;
+			
+			C5: bus access Button1.eth_bus -> Mag_bus;
+			C6: bus access Button1.eth_bus -> Mag_bus;
+			C7: bus access Button1.eth_bus -> Mag_bus;
+			C8: bus access Button1.eth_bus -> Mag_bus;
+			
+			
+			
+			
+		  	
+		properties
+			Actual_Processor_Binding => (reference (processor1)) applies to Light1;
+			Actual_Processor_Binding => (reference (processor2)) applies to Light2;
+			Actual_Processor_Binding => (reference (processor3)) applies to Light3;
+			Actual_Processor_Binding => (reference (processor4)) applies to Light4;
+			
+			Actual_Processor_Binding => (reference (processor1)) applies to LightProcess1;
+			Actual_Processor_Binding => (reference (processor2)) applies to LightProcess2;
+			Actual_Processor_Binding => (reference (processor3)) applies to LightProcess3;
+			Actual_Processor_Binding => (reference (processor4)) applies to LightProcess4;
+			
+			
+			Actual_Processor_Binding => (reference (ButtonProcessor1)) applies to Button1;
+			Actual_Processor_Binding => (reference (ButtonProcessor2)) applies to Button2;
+			Actual_Processor_Binding => (reference (ButtonProcessor3)) applies to Button3;
+			Actual_Processor_Binding => (reference (ButtonProcessor4)) applies to Button4;
+			
+			Actual_Processor_Binding => (reference (ButtonProcessor1)) applies to ButtonProcess1;
+			Actual_Processor_Binding => (reference (ButtonProcessor2)) applies to ButtonProcess2;
+			Actual_Processor_Binding => (reference (ButtonProcessor3)) applies to ButtonProcess3;
+			Actual_Processor_Binding => (reference (ButtonProcessor4)) applies to ButtonProcess4;
+			
+			
+			Actual_Processor_Binding => (reference (ControlBoxProcessor)) applies to BoxProcess;
+			
+			
+			
+		  
+			SEI::WeightLimit => 200.0kg;
+			
+			SEI::MIPSCapacity => 2.4 mips;
+			
+	end trafficLights.impl;
+	
+end sygnalizator_swietlny;
