@@ -1,4 +1,8 @@
 # System-sygnalizacji-czasu-rzeczywistego
+
+## Opis systemu
+System regulujący ruch samochodowy na skrzyżowaniu przy użyciu sygnalizacji świetlnej
+
 ## Schemat systemu
 ![Schemat systemu](./diagrams/system_diagram.png)
 
