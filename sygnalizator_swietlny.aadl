@@ -309,9 +309,9 @@ public
 			C4: bus access Light4.eth_bus -> Mag_bus;
 			
 			C5: bus access Button1.eth_bus -> Mag_bus;
-			C6: bus access Button1.eth_bus -> Mag_bus;
-			C7: bus access Button1.eth_bus -> Mag_bus;
-			C8: bus access Button1.eth_bus -> Mag_bus;
+			C6: bus access Button2.eth_bus -> Mag_bus;
+			C7: bus access Button3.eth_bus -> Mag_bus;
+			C8: bus access Button4.eth_bus -> Mag_bus;
 			
 			
 			
