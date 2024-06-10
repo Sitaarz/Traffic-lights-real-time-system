@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="4b292102-9915-4fc8-ae86-9c20dcee19d7" manual="true">
+    <element uuid="fe7cc67e-dc5c-4b03-b74a-3b4395c1ec30" manual="true">
+      <element uuid="c3956127-146f-4cd3-9d26-15aa7162228e" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ManageButton1</seg>
+        </bo>
+        <position y="160.0"/>
+      </element>
+      <element uuid="e8765803-b585-467e-930d-f626ff55e0ca" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ManageButton2</seg>
+        </bo>
+        <position y="60.0"/>
+      </element>
+      <element uuid="08c6b36f-1675-45ce-bfb5-64e304583d92" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ManageButton3</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="53dd8a63-4612-49a1-8065-73e43a20c714" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ManageButton4</seg>
+        </bo>
+        <position y="110.0"/>
+      </element>
+      <element uuid="746dd2c9-b11d-481e-a99c-cb7da8f00cb3" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ManageLights</seg>
+        </bo>
+        <position x="244.85940551757812" y="85.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>BoxProcess</seg>
+      </bo>
+      <position x="714.0065307617188" y="413.55555555555554"/>
+      <size width="340.62242126464844" height="210.0"/>
+    </element>
+    <element uuid="cc10e79e-9f98-41bf-962f-d2171de3f6bb" manual="true">
+      <element uuid="34849627-5184-4807-a765-ccffb8d45bac" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ButtonSignal</seg>
+        </bo>
+        <position x="185.57552337646484" y="10.0"/>
+      </element>
+      <element uuid="0ed7637c-d428-4bcc-82f1-b83c3a314f8e" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position x="213.73959350585938" y="60.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Button1</seg>
+      </bo>
+      <position x="12.0" y="593.5555555555555"/>
+      <size width="273.18750762939453" height="110.0"/>
+    </element>
+    <element uuid="40ac4556-4fc7-4c28-a011-124c15214cdb" manual="true">
+      <element uuid="f19aa493-1552-4fbb-8984-24e1e075f56d" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ButtonSignal</seg>
+        </bo>
+        <position x="185.57552337646484" y="10.0"/>
+      </element>
+      <element uuid="86292dfd-26c8-421c-aab9-6c04f46865f3" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Button2</seg>
+      </bo>
+      <position x="12.0" y="433.55555555555554"/>
+      <size width="273.18750762939453" height="60.0"/>
+    </element>
+    <element uuid="f24fbdac-9eab-4232-bc7c-872d9c0165c9" manual="true">
+      <element uuid="3d124e79-1e0a-47df-88fe-c08faa1eccb6" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ButtonSignal</seg>
+        </bo>
+        <position x="185.57552337646484" y="10.0"/>
+      </element>
+      <element uuid="8e3b8c0a-4c58-4039-86c4-a148cfddb9e1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Button3</seg>
+      </bo>
+      <position x="12.0" y="353.55555555555554"/>
+      <size width="273.18750762939453" height="60.0"/>
+    </element>
+    <element uuid="69ab464a-18bb-4409-84ac-7a2cc0ab7c9e" manual="true">
+      <element uuid="78cf1107-549d-4dd2-bc56-22ef42cbec43" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ButtonSignal</seg>
+        </bo>
+        <position x="185.57552337646484" y="10.0"/>
+      </element>
+      <element uuid="4e57789c-3de9-42a7-aef1-ad1d511f1fce" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Button4</seg>
+      </bo>
+      <position x="12.0" y="513.5555555555555"/>
+      <size width="273.18750762939453" height="60.0"/>
+    </element>
+    <element uuid="88792c19-a78f-4fc0-8204-cd562cd6ccbb" manual="true">
+      <element uuid="5867f793-ae55-41cd-828e-92758fdc71b9" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetButtonSignal</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="1d3463fb-ec53-4973-83e7-0c7c4d2af232" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>SendButtonSignal</seg>
+        </bo>
+        <position x="270.06771087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcess1</seg>
+      </bo>
+      <position x="305.1875" y="593.5555555555555"/>
+      <size width="388.8190155029297" height="60.0"/>
+    </element>
+    <element uuid="653425cf-b314-48b4-a294-402ec20a3871" manual="true">
+      <element uuid="6dca8fbe-7c7f-476d-bd98-40230466eb12" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetButtonSignal</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="ca333280-9119-4ad3-a35e-5d807d26b427" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>SendButtonSignal</seg>
+        </bo>
+        <position x="270.06771087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcess2</seg>
+      </bo>
+      <position x="305.1875" y="433.55555555555554"/>
+      <size width="388.8190155029297" height="60.0"/>
+    </element>
+    <element uuid="9ba3262a-6961-4663-b8f0-6e8fae2723c3" manual="true">
+      <element uuid="ce8cd1fb-f157-4703-869e-e87c2e7245d1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetButtonSignal</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="7040eaaa-4481-4737-b2f6-c95942a484c6" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>SendButtonSignal</seg>
+        </bo>
+        <position x="270.06771087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcess3</seg>
+      </bo>
+      <position x="305.1875" y="353.55555555555554"/>
+      <size width="388.8190155029297" height="60.0"/>
+    </element>
+    <element uuid="009e37d7-f4a4-4356-bc1b-af5d30a906bd" manual="true">
+      <element uuid="cb86dfab-0cd0-4e0a-acc4-8588015bdb3c" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetButtonSignal</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <element uuid="69e363cf-f966-4605-b79a-9d9c48a66f0a" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>SendButtonSignal</seg>
+        </bo>
+        <position x="270.06771087646484" y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcess4</seg>
+      </bo>
+      <position x="305.1875" y="513.5555555555555"/>
+      <size width="388.8190155029297" height="60.0"/>
+    </element>
+    <element uuid="3a2fb6e1-2a9f-4153-b2b3-d2f03464fb41" manual="true">
+      <element uuid="f6827f7a-f003-43ee-8a6d-5f216fc8e88d" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcessor1</seg>
+      </bo>
+      <position x="1927.8345947265625" y="598.0"/>
+      <size width="219.05338287353516" height="60.0"/>
+    </element>
+    <element uuid="ff2b0325-3053-4057-bd74-17526102e893" manual="true">
+      <element uuid="4d101aa3-36bd-4c81-997b-546b168bdb3a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcessor2</seg>
+      </bo>
+      <position x="1927.8345947265625" y="358.0"/>
+      <size width="219.05338287353516" height="60.0"/>
+    </element>
+    <element uuid="5f126570-445c-42d7-a6ca-926f111229f1" manual="true">
+      <element uuid="99e24421-1138-4d15-ab1a-957a967a8822" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcessor3</seg>
+      </bo>
+      <position x="1927.8345947265625" y="118.0"/>
+      <size width="219.05338287353516" height="60.0"/>
+    </element>
+    <element uuid="4a4b8434-bfef-4a8f-bae1-5bde45906ed3" manual="true">
+      <element uuid="943df063-102d-4fd8-a2d9-b67636a4eea3" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ButtonProcessor4</seg>
+      </bo>
+      <position x="1927.8345947265625" y="278.0"/>
+      <size width="219.05338287353516" height="60.0"/>
+    </element>
+    <element uuid="2997f364-744f-4f2d-9701-b9c093877ee5" manual="true">
+      <element uuid="2f0e3e0c-90db-45f4-849a-936abcafdc3a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>ControlBoxProcessor</seg>
+      </bo>
+      <position x="1927.8345947265625" y="518.0"/>
+      <size width="239.04685974121094" height="60.0"/>
+    </element>
+    <element uuid="4c5285cd-de14-40d0-8615-733d4dbf6898" manual="true">
+      <element uuid="b9c34430-159f-447a-9ebf-d5c09ab414d0" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position x="189.2603988647461" y="10.0"/>
+      </element>
+      <element uuid="4182f0c5-9e16-4891-af35-1ba162da9f1b" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>LightColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Light1</seg>
+      </bo>
+      <position x="1432.2760009765625" y="488.55555555555554"/>
+      <size width="248.70831298828125" height="60.0"/>
+    </element>
+    <element uuid="214e055a-2f4b-4615-bec0-ba838bf01391" manual="true">
+      <element uuid="99997db7-de8e-447f-80bc-5ccb9b6b1ee7" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position x="189.2603988647461" y="10.0"/>
+      </element>
+      <element uuid="31e751b1-3f2f-4ef4-a6bb-b30a761a2a6a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>LightColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Light2</seg>
+      </bo>
+      <position x="1432.2760009765625" y="248.55555555555554"/>
+      <size width="248.70831298828125" height="60.0"/>
+    </element>
+    <element uuid="fb4bcefb-d45f-402b-9c94-0a2a3cd7cbee" manual="true">
+      <element uuid="bfd2b297-d114-4fb8-8085-711cc6c1368a" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position x="189.2603988647461" y="10.0"/>
+      </element>
+      <element uuid="552803eb-feee-4ef8-91aa-b7447e74b2b6" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>LightColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Light3</seg>
+      </bo>
+      <position x="1432.2760009765625" y="408.55555555555554"/>
+      <size width="248.70831298828125" height="60.0"/>
+    </element>
+    <element uuid="fc7156b3-a3eb-4e0a-8bf2-16b074b7e271" manual="true">
+      <element uuid="0954ee75-9ab7-410b-9d94-236c7ac122a7" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth_bus</seg>
+        </bo>
+        <position x="189.2603988647461" y="10.0"/>
+      </element>
+      <element uuid="c9bee1b1-e094-4aa8-af77-0f619a87b0fe" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>LightColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Light4</seg>
+      </bo>
+      <position x="1432.2760009765625" y="328.55555555555554"/>
+      <size width="248.70831298828125" height="60.0"/>
+    </element>
+    <element uuid="fba0b9c4-f087-4017-8ac3-5a38fbf62239" manual="true">
+      <element uuid="4fae6944-7251-4006-91e1-5cd9fd35c163" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ChangeColour</seg>
+        </bo>
+        <position x="239.6640625" y="10.0"/>
+      </element>
+      <element uuid="75c4483d-3faa-4d9c-aac2-a62a409dbb9f" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>LightProcess1</seg>
+      </bo>
+      <position x="1074.62890625" y="488.55555555555554"/>
+      <size width="337.64713287353516" height="60.0"/>
+    </element>
+    <element uuid="953279b3-5906-48b0-8d3c-47ebef471996" manual="true">
+      <element uuid="dcd72fea-ac23-4924-ad2a-8e606b1d285c" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ChangeColour</seg>
+        </bo>
+        <position x="239.6640625" y="10.0"/>
+      </element>
+      <element uuid="a646b8f4-ac13-46f1-9098-e0483cd52962" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>LightProcess2</seg>
+      </bo>
+      <position x="1074.62890625" y="248.55555555555554"/>
+      <size width="337.64713287353516" height="60.0"/>
+    </element>
+    <element uuid="d77ef8dd-6b10-4197-bae4-12a0d5f9497e" manual="true">
+      <element uuid="c00b3d70-42fc-4e67-b8c9-6c6bf3d64942" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ChangeColour</seg>
+        </bo>
+        <position x="239.6640625" y="10.0"/>
+      </element>
+      <element uuid="96573833-cacf-4cf0-87aa-e1d2e58edfb0" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>LightProcess3</seg>
+      </bo>
+      <position x="1074.62890625" y="408.55555555555554"/>
+      <size width="337.64713287353516" height="60.0"/>
+    </element>
+    <element uuid="1cab04a2-4f06-41b9-aed5-28aa787e042c" manual="true">
+      <element uuid="afbd5e36-7e4c-49eb-abe1-664c48edcb2a" manual="true" dockArea="right">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>ChangeColour</seg>
+        </bo>
+        <position x="239.6640625" y="10.0"/>
+      </element>
+      <element uuid="6353d6f4-81c8-4b84-b34b-966ab422b4c1" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>GetColour</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>LightProcess4</seg>
+      </bo>
+      <position x="1074.62890625" y="328.55555555555554"/>
+      <size width="337.64713287353516" height="60.0"/>
+    </element>
+    <element uuid="5701590b-0213-42db-8eeb-af35f8094a96" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>Mag_bus</seg>
+      </bo>
+      <position x="1730.984375" y="630.0"/>
+      <size width="106.85025787353516" height="100.0"/>
+    </element>
+    <element uuid="eaf3086a-b83c-4171-8ebe-c73556bce837" manual="true">
+      <element uuid="9ef32455-5773-4911-b1d2-7637fc6023ec" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>processor1</seg>
+      </bo>
+      <position x="1927.8345947265625" y="678.0"/>
+      <size width="179.02734375" height="60.0"/>
+    </element>
+    <element uuid="6e9fb4c7-66ac-48cf-91cf-7d43c4f129d5" manual="true">
+      <element uuid="1a577373-1340-4690-b4ef-501511092881" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>processor2</seg>
+      </bo>
+      <position x="1927.8345947265625" y="438.0"/>
+      <size width="179.02734375" height="60.0"/>
+    </element>
+    <element uuid="1833d316-9d63-4f2f-bd0e-95290d5fdde4" manual="true">
+      <element uuid="713c0fe4-31f9-4b17-9924-e7e118478619" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>processor3</seg>
+      </bo>
+      <position x="1927.8345947265625" y="38.0"/>
+      <size width="179.02734375" height="60.0"/>
+    </element>
+    <element uuid="595038aa-6e5c-41e2-89ed-778acb833c9f" manual="true">
+      <element uuid="6dbd5a40-9225-49a2-9865-16bdc197c66a" manual="true" dockArea="left">
+        <bo>
+          <seg>org.osate.ge.diagrams.instance</seg>
+          <seg>feature_instance</seg>
+          <seg>eth</seg>
+        </bo>
+        <position y="10.0"/>
+      </element>
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>component_instance</seg>
+        <seg>processor4</seg>
+      </bo>
+      <position x="1927.8345947265625" y="198.0"/>
+      <size width="179.02734375" height="60.0"/>
+    </element>
+    <element uuid="4d68b112-5fab-4d27-a785-da073e641714" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>BoxProcessLightProcessConn1 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess1.GetColour</seg>
+      </bo>
+    </element>
+    <element uuid="92df084c-f08b-43af-a7f7-69dcfdae4ea2" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>BoxProcessLightProcessConn2 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess2.GetColour</seg>
+      </bo>
+      <bendpoints>
+        <point x="1064.62890625" y="530.5555419921875"/>
+        <point x="1064.62890625" y="290.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="fdd71a53-93c2-4341-9e58-b960cc1651a1" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>BoxProcessLightProcessConn3 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess3.GetColour</seg>
+      </bo>
+      <bendpoints>
+        <point x="1064.62890625" y="530.5555419921875"/>
+        <point x="1064.62890625" y="450.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="32fedb75-5994-4827-8178-6c70f13c426f" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>BoxProcessLightProcessConn4 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess4.GetColour</seg>
+      </bo>
+      <bendpoints>
+        <point x="1064.62890625" y="530.5555419921875"/>
+        <point x="1064.62890625" y="370.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="1c2f4f7f-3b6e-40cc-9fab-3355fea5cfd3" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessBoxProcessConn1 : trafficLights_impl_Instance.ButtonProcess1.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton1</seg>
+      </bo>
+      <bendpoints>
+        <point x="704.0065307617188" y="635.5555419921875"/>
+        <point x="704.0065307617188" y="605.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="dfaa6f2f-e016-4902-9ca9-d6ce7093d993" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessBoxProcessConn2 : trafficLights_impl_Instance.ButtonProcess2.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton2</seg>
+      </bo>
+      <bendpoints>
+        <point x="704.0065307617188" y="475.5555419921875"/>
+        <point x="704.0065307617188" y="505.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="3a0716d4-18ef-41a6-b5fc-cf1d824ba39e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessBoxProcessConn3 : trafficLights_impl_Instance.ButtonProcess3.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton3</seg>
+      </bo>
+      <bendpoints>
+        <point x="704.0065307617188" y="395.5555419921875"/>
+        <point x="704.0065307617188" y="455.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="0be70ee8-b0a9-4148-920a-654118d78733" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessBoxProcessConn4 : trafficLights_impl_Instance.ButtonProcess4.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton4</seg>
+      </bo>
+    </element>
+    <element uuid="0056699d-c516-4051-baa4-1593de8c8e30" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessCon1 : trafficLights_impl_Instance.Button1.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess1.GetButtonSignal</seg>
+      </bo>
+    </element>
+    <element uuid="62f4c525-9683-49fc-9cea-155c5007c7c2" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessCon2 : trafficLights_impl_Instance.Button2.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess2.GetButtonSignal</seg>
+      </bo>
+    </element>
+    <element uuid="7dac7e2c-662b-44f9-b0b0-cae36dde56f6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessCon3 : trafficLights_impl_Instance.Button3.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess3.GetButtonSignal</seg>
+      </bo>
+    </element>
+    <element uuid="75687b37-5e89-43ed-96e8-a8d135696821" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>ButtonProcessCon4 : trafficLights_impl_Instance.Button4.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess4.GetButtonSignal</seg>
+      </bo>
+    </element>
+    <element uuid="2f94ceb9-9529-497a-b9a6-631258293a11" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C1 : trafficLights_impl_Instance.Light1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1690.984375" y="530.5555419921875"/>
+        <point x="1690.984375" y="674.4444580078125"/>
+        <point x="1726.984375" y="674.4444580078125"/>
+      </bendpoints>
+    </element>
+    <element uuid="c857e7f1-0c17-420a-9b6e-2b1678312a48" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C2 : trafficLights_impl_Instance.Light2.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1720.984375" y="290.5555419921875"/>
+        <point x="1720.984375" y="641.111083984375"/>
+        <point x="1726.984375" y="641.111083984375"/>
+      </bendpoints>
+    </element>
+    <element uuid="7fcf44ed-2295-4d4c-915b-2da12dea49b1" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C3 : trafficLights_impl_Instance.Light3.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1700.984375" y="450.5555419921875"/>
+        <point x="1700.984375" y="663.3333129882812"/>
+        <point x="1726.984375" y="663.3333129882812"/>
+      </bendpoints>
+    </element>
+    <element uuid="cd9fb975-e59d-414b-8c23-2a56499b2977" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C4 : trafficLights_impl_Instance.Light4.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1710.984375" y="370.5555419921875"/>
+        <point x="1710.984375" y="652.2222290039062"/>
+        <point x="1726.984375" y="652.2222290039062"/>
+      </bendpoints>
+    </element>
+    <element uuid="e2bf6748-8de1-452b-a512-366504667f65" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C5 : trafficLights_impl_Instance.Button1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1730.984375" y="685.5555419921875"/>
+      </bendpoints>
+    </element>
+    <element uuid="16f79a2b-716b-4d2d-a8c9-1d4372d25722" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C6 : trafficLights_impl_Instance.Button1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1690.984375" y="685.5555419921875"/>
+        <point x="1690.984375" y="707.7777709960938"/>
+        <point x="1726.984375" y="707.7777709960938"/>
+      </bendpoints>
+    </element>
+    <element uuid="a62ccc03-fb46-4eb2-a08c-0b0dbbb80d6a" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C7 : trafficLights_impl_Instance.Button1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1690.984375" y="685.5555419921875"/>
+        <point x="1690.984375" y="718.888916015625"/>
+        <point x="1726.984375" y="718.888916015625"/>
+      </bendpoints>
+    </element>
+    <element uuid="030e09a7-c060-403d-8e23-890aca3aef66" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>C8 : trafficLights_impl_Instance.Button1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
+      </bo>
+      <bendpoints>
+        <point x="1690.984375" y="685.5555419921875"/>
+        <point x="1690.984375" y="696.6666870117188"/>
+        <point x="1726.984375" y="696.6666870117188"/>
+      </bendpoints>
+    </element>
+    <element uuid="4519d9cb-f3dd-46a7-8f68-23bb7f0b20b0" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>eth1 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor1.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1837.8345947265625" y="720.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="3ae4c7df-e4d1-4207-9d1e-5d2e4b939525" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>eth2 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor2.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="690.0"/>
+        <point x="1897.8345947265625" y="690.0"/>
+        <point x="1897.8345947265625" y="480.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="75191d91-ab0f-46c4-8d7b-e7a89228c85e" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>eth3 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor3.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="640.0"/>
+        <point x="1847.8345947265625" y="640.0"/>
+        <point x="1847.8345947265625" y="80.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="df01f9b2-24eb-44e2-b44b-469f7b7d5d8c" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>eth4 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor4.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="660.0"/>
+        <point x="1867.8345947265625" y="660.0"/>
+        <point x="1867.8345947265625" y="240.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="73263712-1caa-4be7-8de7-849d579b1d98" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>EthButtonProcessor1 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor1.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="710.0"/>
+        <point x="1917.8345947265625" y="710.0"/>
+        <point x="1917.8345947265625" y="640.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="ce33ddca-25e2-4e59-98ab-99df8f7561c3" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>EthButtonProcessor2 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor2.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="680.0"/>
+        <point x="1887.8345947265625" y="680.0"/>
+        <point x="1887.8345947265625" y="400.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="e6c31882-776a-49bb-a472-7cef2ba5fe62" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>EthButtonProcessor3 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor3.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="650.0"/>
+        <point x="1857.8345947265625" y="650.0"/>
+        <point x="1857.8345947265625" y="160.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="81972bd2-f977-4a37-beb3-38dc14163b14" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>EthButtonProcessor4 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor4.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="670.0"/>
+        <point x="1877.8345947265625" y="670.0"/>
+        <point x="1877.8345947265625" y="320.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="4a5d0103-728c-46c0-9bed-7bc587a42b45" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>EthControlBoxProcessor : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ControlBoxProcessor.eth</seg>
+      </bo>
+      <bendpoints>
+        <point x="1841.8345947265625" y="700.0"/>
+        <point x="1907.8345947265625" y="700.0"/>
+        <point x="1907.8345947265625" y="560.0"/>
+      </bendpoints>
+    </element>
+    <element uuid="f20c1c6a-85dc-4180-ada5-cd9738e20bd9" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>LightProcessLightDeviceConn1 : trafficLights_impl_Instance.LightProcess1.ChangeColour -> trafficLights_impl_Instance.Light1.LightColour</seg>
+      </bo>
+    </element>
+    <element uuid="aa3a0804-2bba-4eef-b5aa-e37b449089ca" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>LightProcessLightDeviceConn2 : trafficLights_impl_Instance.LightProcess2.ChangeColour -> trafficLights_impl_Instance.Light2.LightColour</seg>
+      </bo>
+    </element>
+    <element uuid="5cc7c867-d3c2-4a23-b285-0db440aa45e6" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>LightProcessLightDeviceConn3 : trafficLights_impl_Instance.LightProcess3.ChangeColour -> trafficLights_impl_Instance.Light3.LightColour</seg>
+      </bo>
+    </element>
+    <element uuid="d63f0984-1655-40a7-83fc-db17a5d1d436" manual="true">
+      <bo>
+        <seg>org.osate.ge.diagrams.instance</seg>
+        <seg>connection_reference</seg>
+        <seg>LightProcessLightDeviceConn4 : trafficLights_impl_Instance.LightProcess4.ChangeColour -> trafficLights_impl_Instance.Light4.LightColour</seg>
+      </bo>
+    </element>
+    <bo>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/projekt_zaliczeniowy-systemy_czasu_rzeczywistego/instances/sygnalizator_swietlny_trafficlights_impl_instance.aaxl2</seg>
+    </bo>
+    <position/>
+    <size width="2178.88134765625" height="750.0"/>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>org.osate.ge.diagrams.instance</seg>
+      <seg>system_instance</seg>
+      <seg>/projekt_zaliczeniowy-systemy_czasu_rzeczywistego/instances/sygnalizator_swietlny_trafficlights_impl_instance.aaxl2</seg>
+    </context>
+  </config>
+</diagram:Diagram>
