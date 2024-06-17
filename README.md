@@ -37,3 +37,4 @@ System regulujący ruch samochodowy na skrzyżowaniu przy użyciu sygnalizacji �
 * BoxProcess - proces obsługujący logikę biznesową zarządzania zmianą koloru sygnalizatorów
 * Mag_bus- magistrala łącząca procesor z modułem świateł
 * SignalizerColour - obiekt data będący enum stanów sygnalizatora
+* StandMemory - pamięć RAM
