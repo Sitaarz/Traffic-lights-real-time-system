@@ -40,15 +40,15 @@
           <seg>feature_instance</seg>
           <seg>ManageLights</seg>
         </bo>
-        <position x="244.85940551757812" y="85.0"/>
+        <position x="245.2369842529297" y="85.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>BoxProcess</seg>
       </bo>
-      <position x="734.0065307617188" y="228.0"/>
-      <size width="340.62242126464844" height="210.0"/>
+      <position x="734.0" y="228.0"/>
+      <size width="341.0" height="210.0"/>
     </element>
     <element uuid="d706ec8c-0207-4b4e-959d-a4684362e823" manual="true">
       <element uuid="a8a30d38-1c29-4784-9226-d25abae28fed" manual="true" dockArea="right">
@@ -57,7 +57,7 @@
           <seg>feature_instance</seg>
           <seg>ButtonSignal</seg>
         </bo>
-        <position x="185.57552337646484" y="60.0"/>
+        <position x="185.3880157470703" y="60.0"/>
       </element>
       <element uuid="f53dc877-06f1-41c8-869f-fe66c9f28298" manual="true" dockArea="right">
         <bo>
@@ -65,7 +65,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="213.73959350585938" y="10.0"/>
+        <position x="213.55208587646484" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -73,7 +73,7 @@
         <seg>Button1</seg>
       </bo>
       <position x="12.0" y="38.0"/>
-      <size width="273.18750762939453" height="110.0"/>
+      <size width="273.0" height="110.0"/>
     </element>
     <element uuid="0b0d2764-68c3-4501-9e25-c722213ea3d0" manual="true">
       <element uuid="43af6472-f826-4514-b406-148e60a3339b" manual="true" dockArea="right">
@@ -82,7 +82,7 @@
           <seg>feature_instance</seg>
           <seg>ButtonSignal</seg>
         </bo>
-        <position x="185.57552337646484" y="60.0"/>
+        <position x="185.3880157470703" y="60.0"/>
       </element>
       <element uuid="a87c9233-09b6-472b-a8bf-8415cc310b06" manual="true" dockArea="right">
         <bo>
@@ -90,7 +90,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="213.73959350585938" y="10.0"/>
+        <position x="213.55208587646484" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -98,7 +98,7 @@
         <seg>Button2</seg>
       </bo>
       <position x="12.0" y="168.0"/>
-      <size width="273.18750762939453" height="110.0"/>
+      <size width="273.0" height="110.0"/>
     </element>
     <element uuid="3fcec204-1c8e-4cd5-9c6c-b333631d727b" manual="true">
       <element uuid="ce28ce46-062d-4f79-a665-9862482bd94f" manual="true" dockArea="right">
@@ -107,7 +107,7 @@
           <seg>feature_instance</seg>
           <seg>ButtonSignal</seg>
         </bo>
-        <position x="185.57552337646484" y="10.0"/>
+        <position x="185.3880157470703" y="10.0"/>
       </element>
       <element uuid="d5e84ba7-714b-4a6a-b8db-1411524cd295" manual="true" dockArea="right">
         <bo>
@@ -115,7 +115,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="213.73959350585938" y="60.0"/>
+        <position x="213.55208587646484" y="60.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -123,7 +123,7 @@
         <seg>Button3</seg>
       </bo>
       <position x="12.0" y="361.0"/>
-      <size width="273.18750762939453" height="110.0"/>
+      <size width="273.0" height="110.0"/>
     </element>
     <element uuid="b7c3c0a9-4361-4b39-948a-acc9c375cfb2" manual="true">
       <element uuid="2473c336-6c65-4577-89a9-303297138d3a" manual="true" dockArea="right">
@@ -132,7 +132,7 @@
           <seg>feature_instance</seg>
           <seg>ButtonSignal</seg>
         </bo>
-        <position x="185.57552337646484" y="10.0"/>
+        <position x="185.3880157470703" y="10.0"/>
       </element>
       <element uuid="ecfcbfa3-1b83-4e6d-b0b1-87d25e6e4e80" manual="true" dockArea="right">
         <bo>
@@ -140,7 +140,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="213.73959350585938" y="60.0"/>
+        <position x="213.55208587646484" y="60.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
@@ -148,7 +148,7 @@
         <seg>Button4</seg>
       </bo>
       <position x="12.0" y="491.0"/>
-      <size width="273.18750762939453" height="110.0"/>
+      <size width="273.0" height="110.0"/>
     </element>
     <element uuid="6ee46b8d-4864-4f07-8119-f73a1ffcfb58" manual="true">
       <element uuid="c63cd85e-b2e7-4265-a84d-995bba26346d" manual="true" dockArea="left">
@@ -165,15 +165,15 @@
           <seg>feature_instance</seg>
           <seg>SendButtonSignal</seg>
         </bo>
-        <position x="270.06771087646484" y="10.0"/>
+        <position x="270.24869537353516" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>ButtonProcess1</seg>
       </bo>
-      <position x="315.1875" y="88.0"/>
-      <size width="388.8190155029297" height="60.0"/>
+      <position x="315.0" y="88.0"/>
+      <size width="389.0" height="60.0"/>
     </element>
     <element uuid="ebd89cb1-1779-46cd-8041-5fd76cd055d0" manual="true">
       <element uuid="73d50502-3857-4c2d-9fd2-04521e75089b" manual="true" dockArea="left">
@@ -190,15 +190,15 @@
           <seg>feature_instance</seg>
           <seg>SendButtonSignal</seg>
         </bo>
-        <position x="270.06771087646484" y="10.0"/>
+        <position x="270.24869537353516" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>ButtonProcess2</seg>
       </bo>
-      <position x="315.1875" y="218.0"/>
-      <size width="388.8190155029297" height="60.0"/>
+      <position x="315.0" y="218.0"/>
+      <size width="389.0" height="60.0"/>
     </element>
     <element uuid="b9204a51-1c6d-4b93-8332-e841757ffe7c" manual="true">
       <element uuid="0310a629-2083-4346-8d1c-f1d6028059b2" manual="true" dockArea="left">
@@ -215,15 +215,15 @@
           <seg>feature_instance</seg>
           <seg>SendButtonSignal</seg>
         </bo>
-        <position x="270.06771087646484" y="10.0"/>
+        <position x="270.24869537353516" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>ButtonProcess3</seg>
       </bo>
-      <position x="315.1875" y="298.0"/>
-      <size width="388.8190155029297" height="60.0"/>
+      <position x="315.0" y="298.0"/>
+      <size width="389.0" height="60.0"/>
     </element>
     <element uuid="e8f2aa26-acd2-4666-af03-d7a7bb2bcd75" manual="true">
       <element uuid="db6032fa-82f8-418d-947a-06c347464122" manual="true" dockArea="left">
@@ -240,15 +240,15 @@
           <seg>feature_instance</seg>
           <seg>SendButtonSignal</seg>
         </bo>
-        <position x="270.06771087646484" y="10.0"/>
+        <position x="270.24869537353516" y="10.0"/>
       </element>
       <bo>
         <seg>org.osate.ge.diagrams.instance</seg>
         <seg>component_instance</seg>
         <seg>ButtonProcess4</seg>
       </bo>
-      <position x="315.1875" y="378.0"/>
-      <size width="388.8190155029297" height="60.0"/>
+      <position x="315.0" y="378.0"/>
+      <size width="389.0" height="60.0"/>
     </element>
     <element uuid="18257a5c-3879-4aed-96a9-285bfe816105" manual="true">
       <element uuid="75460952-2ada-4c1a-a0b8-5295dfbf4bb7" manual="true" dockArea="left">
@@ -264,8 +264,8 @@
         <seg>component_instance</seg>
         <seg>ButtonProcessor1</seg>
       </bo>
-      <position x="1937.8345947265625" y="742.1111111111111"/>
-      <size width="219.05338287353516" height="60.0"/>
+      <position x="1938.0" y="742.0"/>
+      <size width="219.0" height="60.0"/>
     </element>
     <element uuid="ff4ca354-9ba9-4351-89dd-64fe24c6d728" manual="true">
       <element uuid="fc195c51-ee48-40ba-b852-788b6f867830" manual="true" dockArea="left">
@@ -281,8 +281,8 @@
         <seg>component_instance</seg>
         <seg>ButtonProcessor2</seg>
       </bo>
-      <position x="1937.8345947265625" y="502.1111111111111"/>
-      <size width="219.05338287353516" height="60.0"/>
+      <position x="1938.0" y="502.0"/>
+      <size width="219.0" height="60.0"/>
     </element>
     <element uuid="261b3cfc-4272-42c9-96e2-fcec4d865904" manual="true">
       <element uuid="c9233d2b-7803-476a-b268-0d6163d5caf9" manual="true" dockArea="left">
@@ -298,8 +298,8 @@
         <seg>component_instance</seg>
         <seg>ButtonProcessor3</seg>
       </bo>
-      <position x="1937.8345947265625" y="262.1111111111111"/>
-      <size width="219.05338287353516" height="60.0"/>
+      <position x="1938.0" y="262.0"/>
+      <size width="219.0" height="60.0"/>
     </element>
     <element uuid="e165fca5-cd6f-435d-bd22-a149025a2c37" manual="true">
       <element uuid="10c48a73-2447-4656-a22a-a851b6ff9147" manual="true" dockArea="left">
@@ -315,8 +315,8 @@
         <seg>component_instance</seg>
         <seg>ButtonProcessor4</seg>
       </bo>
-      <position x="1937.8345947265625" y="422.1111111111111"/>
-      <size width="219.05338287353516" height="60.0"/>
+      <position x="1938.0" y="422.0"/>
+      <size width="219.0" height="60.0"/>
     </element>
     <element uuid="bc7d5cec-0041-4552-aea8-31789ca50eb6" manual="true">
       <element uuid="98fbe0c5-a192-4f33-adb4-5269641a6066" manual="true" dockArea="left">
@@ -332,8 +332,8 @@
         <seg>component_instance</seg>
         <seg>ControlBoxProcessor</seg>
       </bo>
-      <position x="1937.8345947265625" y="662.1111111111111"/>
-      <size width="239.04685974121094" height="60.0"/>
+      <position x="1938.0" y="662.0"/>
+      <size width="239.0" height="60.0"/>
     </element>
     <element uuid="8967458f-91bb-4165-b4c5-1ef110dda5df" manual="true">
       <element uuid="f5870750-0874-41db-9587-e176f01562ed" manual="true" dockArea="right">
@@ -342,7 +342,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="189.2603988647461" y="10.0"/>
+        <position x="189.55208587646484" y="10.0"/>
       </element>
       <element uuid="4f100a25-eb0b-4070-bfde-e0ae85536ade" manual="true" dockArea="left">
         <bo>
@@ -357,8 +357,8 @@
         <seg>component_instance</seg>
         <seg>Light1</seg>
       </bo>
-      <position x="1452.2760009765625" y="143.0"/>
-      <size width="248.70831298828125" height="60.0"/>
+      <position x="1452.0" y="143.0"/>
+      <size width="249.0" height="60.0"/>
     </element>
     <element uuid="1d0c8fb7-b60b-47b4-abf1-afe2ae0a2c0e" manual="true">
       <element uuid="a767fe74-290c-4508-bf58-b7dbc93ccb98" manual="true" dockArea="right">
@@ -367,7 +367,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="189.2603988647461" y="10.0"/>
+        <position x="189.55208587646484" y="10.0"/>
       </element>
       <element uuid="4373f07d-a15e-49e4-bf4f-9b903543bb64" manual="true" dockArea="left">
         <bo>
@@ -382,8 +382,8 @@
         <seg>component_instance</seg>
         <seg>Light2</seg>
       </bo>
-      <position x="1452.2760009765625" y="383.0"/>
-      <size width="248.70831298828125" height="60.0"/>
+      <position x="1452.0" y="383.0"/>
+      <size width="249.0" height="60.0"/>
     </element>
     <element uuid="acf8bbf1-fd83-494d-9576-fc6bab29d35b" manual="true">
       <element uuid="aed834c7-76ab-4a04-906d-7bad5683c0f5" manual="true" dockArea="right">
@@ -392,7 +392,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="189.2603988647461" y="10.0"/>
+        <position x="189.55208587646484" y="10.0"/>
       </element>
       <element uuid="425c653c-31a9-4a15-a364-d8051d2ba3f2" manual="true" dockArea="left">
         <bo>
@@ -407,8 +407,8 @@
         <seg>component_instance</seg>
         <seg>Light3</seg>
       </bo>
-      <position x="1452.2760009765625" y="223.0"/>
-      <size width="248.70831298828125" height="60.0"/>
+      <position x="1452.0" y="223.0"/>
+      <size width="249.0" height="60.0"/>
     </element>
     <element uuid="3d228651-dfae-40d6-ba4b-a5b48d84828c" manual="true">
       <element uuid="6ca8d289-f68c-4b25-8b83-6498174b4d30" manual="true" dockArea="right">
@@ -417,7 +417,7 @@
           <seg>feature_instance</seg>
           <seg>eth_bus</seg>
         </bo>
-        <position x="189.2603988647461" y="10.0"/>
+        <position x="189.55208587646484" y="10.0"/>
       </element>
       <element uuid="ebb857bd-03b5-4b11-bb86-3852a57c2d4a" manual="true" dockArea="left">
         <bo>
@@ -432,8 +432,8 @@
         <seg>component_instance</seg>
         <seg>Light4</seg>
       </bo>
-      <position x="1452.2760009765625" y="303.0"/>
-      <size width="248.70831298828125" height="60.0"/>
+      <position x="1452.0" y="303.0"/>
+      <size width="249.0" height="60.0"/>
     </element>
     <element uuid="05098b0e-35fa-4c68-903b-de105d869a99" manual="true">
       <element uuid="43a35f34-71ee-4713-a0d9-9e3068d2ce34" manual="true" dockArea="right">
@@ -442,7 +442,7 @@
           <seg>feature_instance</seg>
           <seg>ChangeColour</seg>
         </bo>
-        <position x="239.6640625" y="10.0"/>
+        <position x="240.01692962646484" y="10.0"/>
       </element>
       <element uuid="5b3faa15-9335-47d3-951a-86c58e67efff" manual="true" dockArea="left">
         <bo>
@@ -457,8 +457,8 @@
         <seg>component_instance</seg>
         <seg>LightProcess1</seg>
       </bo>
-      <position x="1094.62890625" y="143.0"/>
-      <size width="337.64713287353516" height="60.0"/>
+      <position x="1095.0" y="143.0"/>
+      <size width="338.0" height="60.0"/>
     </element>
     <element uuid="c20d8458-77be-4fa1-8d47-aac1c7710325" manual="true">
       <element uuid="187954e0-d726-4335-aa25-77e8d46693ea" manual="true" dockArea="right">
@@ -467,7 +467,7 @@
           <seg>feature_instance</seg>
           <seg>ChangeColour</seg>
         </bo>
-        <position x="239.6640625" y="10.0"/>
+        <position x="240.01692962646484" y="10.0"/>
       </element>
       <element uuid="f664cb00-1fb2-4950-af61-f1296b1e1bc2" manual="true" dockArea="left">
         <bo>
@@ -482,8 +482,8 @@
         <seg>component_instance</seg>
         <seg>LightProcess2</seg>
       </bo>
-      <position x="1094.62890625" y="383.0"/>
-      <size width="337.64713287353516" height="60.0"/>
+      <position x="1095.0" y="383.0"/>
+      <size width="338.0" height="60.0"/>
     </element>
     <element uuid="7330290c-8b7b-489e-879d-ed0b3140462b" manual="true">
       <element uuid="f14cfc74-30f3-42ef-a4e3-2852efeb7d3e" manual="true" dockArea="right">
@@ -492,7 +492,7 @@
           <seg>feature_instance</seg>
           <seg>ChangeColour</seg>
         </bo>
-        <position x="239.6640625" y="10.0"/>
+        <position x="240.01692962646484" y="10.0"/>
       </element>
       <element uuid="85636f2d-30e2-432b-9ce7-89bfac8b7e04" manual="true" dockArea="left">
         <bo>
@@ -507,8 +507,8 @@
         <seg>component_instance</seg>
         <seg>LightProcess3</seg>
       </bo>
-      <position x="1094.62890625" y="223.0"/>
-      <size width="337.64713287353516" height="60.0"/>
+      <position x="1095.0" y="223.0"/>
+      <size width="338.0" height="60.0"/>
     </element>
     <element uuid="7a2011e4-6fd2-46a8-a898-3b8267a09eb0" manual="true">
       <element uuid="472616bc-a316-4181-a9c9-71c963bdc241" manual="true" dockArea="right">
@@ -517,7 +517,7 @@
           <seg>feature_instance</seg>
           <seg>ChangeColour</seg>
         </bo>
-        <position x="239.6640625" y="10.0"/>
+        <position x="240.01692962646484" y="10.0"/>
       </element>
       <element uuid="6a12cfcb-7e26-480a-bf2c-fa07e7a4e0a2" manual="true" dockArea="left">
         <bo>
@@ -532,8 +532,8 @@
         <seg>component_instance</seg>
         <seg>LightProcess4</seg>
       </bo>
-      <position x="1094.62890625" y="303.0"/>
-      <size width="337.64713287353516" height="60.0"/>
+      <position x="1095.0" y="303.0"/>
+      <size width="338.0" height="60.0"/>
     </element>
     <element uuid="02279a76-a4f0-42ab-ab87-11cbd9f7c7e6" manual="true">
       <bo>
@@ -541,8 +541,8 @@
         <seg>component_instance</seg>
         <seg>Mag_bus</seg>
       </bo>
-      <position x="1780.984375" y="494.1111111111111"/>
-      <size width="106.85025787353516" height="100.0"/>
+      <position x="1781.0" y="494.0"/>
+      <size width="107.0" height="100.0"/>
     </element>
     <element uuid="5fbfad91-d70a-4ec6-b2cd-fe689f8a8ffd" manual="true">
       <element uuid="4e901c47-507c-4456-ad6e-18181f2e0637" manual="true" dockArea="left">
@@ -558,8 +558,8 @@
         <seg>component_instance</seg>
         <seg>processor1</seg>
       </bo>
-      <position x="1937.8345947265625" y="822.1111111111111"/>
-      <size width="179.02734375" height="60.0"/>
+      <position x="1938.0" y="822.0"/>
+      <size width="179.0" height="60.0"/>
     </element>
     <element uuid="085dd7f5-1b07-424a-bc22-15406952a0ed" manual="true">
       <element uuid="5390c2eb-2b32-40dc-bd8b-c1ef0f1b597b" manual="true" dockArea="left">
@@ -575,8 +575,8 @@
         <seg>component_instance</seg>
         <seg>processor2</seg>
       </bo>
-      <position x="1937.8345947265625" y="582.1111111111111"/>
-      <size width="179.02734375" height="60.0"/>
+      <position x="1938.0" y="582.0"/>
+      <size width="179.0" height="60.0"/>
     </element>
     <element uuid="8125da54-e16c-429c-8e9e-e17a13a7f31a" manual="true">
       <element uuid="cd005dc3-3d7b-43c9-b306-222767132ee5" manual="true" dockArea="left">
@@ -592,8 +592,8 @@
         <seg>component_instance</seg>
         <seg>processor3</seg>
       </bo>
-      <position x="1937.8345947265625" y="182.1111111111111"/>
-      <size width="179.02734375" height="60.0"/>
+      <position x="1938.0" y="182.0"/>
+      <size width="179.0" height="60.0"/>
     </element>
     <element uuid="cb6a3dce-68be-4b18-b478-a5194c679e0a" manual="true">
       <element uuid="7cf3333d-8a8c-4bc3-8018-ea950243053d" manual="true" dockArea="left">
@@ -609,8 +609,8 @@
         <seg>component_instance</seg>
         <seg>processor4</seg>
       </bo>
-      <position x="1937.8345947265625" y="342.1111111111111"/>
-      <size width="179.02734375" height="60.0"/>
+      <position x="1938.0" y="342.0"/>
+      <size width="179.0" height="60.0"/>
     </element>
     <element uuid="62a22d08-42a7-4089-89df-be5e835b70f7" manual="true">
       <bo>
@@ -619,8 +619,8 @@
         <seg>BoxProcessLightProcessConn1 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess1.GetColour</seg>
       </bo>
       <bendpoints>
-        <point x="774.62890625" y="285.0"/>
-        <point x="774.62890625" y="125.0"/>
+        <point x="525.0" y="235.0"/>
+        <point x="525.0" y="75.0"/>
       </bendpoints>
     </element>
     <element uuid="c0c7869c-32f1-4296-94b3-2e89dfb0f2d1" manual="true">
@@ -630,8 +630,8 @@
         <seg>BoxProcessLightProcessConn2 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess2.GetColour</seg>
       </bo>
       <bendpoints>
-        <point x="774.62890625" y="285.0"/>
-        <point x="774.62890625" y="365.0"/>
+        <point x="525.0" y="235.0"/>
+        <point x="525.0" y="315.0"/>
       </bendpoints>
     </element>
     <element uuid="487152b7-10e9-4832-bf0c-12a1956f54dc" manual="true">
@@ -641,8 +641,8 @@
         <seg>BoxProcessLightProcessConn3 : trafficLights_impl_Instance.BoxProcess.ManageLights -> trafficLights_impl_Instance.LightProcess3.GetColour</seg>
       </bo>
       <bendpoints>
-        <point x="774.62890625" y="285.0"/>
-        <point x="774.62890625" y="205.0"/>
+        <point x="525.0" y="235.0"/>
+        <point x="525.0" y="155.0"/>
       </bendpoints>
     </element>
     <element uuid="872fc165-7447-4c51-bded-422599d54749" manual="true">
@@ -659,8 +659,8 @@
         <seg>ButtonProcessBoxProcessConn1 : trafficLights_impl_Instance.ButtonProcess1.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton1</seg>
       </bo>
       <bendpoints>
-        <point x="414.00653076171875" y="70.0"/>
-        <point x="414.00653076171875" y="210.0"/>
+        <point x="164.0" y="20.0"/>
+        <point x="164.0" y="160.0"/>
       </bendpoints>
     </element>
     <element uuid="6d0908b7-53be-44e5-b9d3-f9574ecacffd" manual="true">
@@ -670,8 +670,8 @@
         <seg>ButtonProcessBoxProcessConn2 : trafficLights_impl_Instance.ButtonProcess2.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton2</seg>
       </bo>
       <bendpoints>
-        <point x="404.00653076171875" y="200.0"/>
-        <point x="404.00653076171875" y="260.0"/>
+        <point x="154.0" y="150.0"/>
+        <point x="154.0" y="210.0"/>
       </bendpoints>
     </element>
     <element uuid="1ec4ce5e-2c79-4d4f-ba41-b36f1c50e87d" manual="true">
@@ -681,8 +681,8 @@
         <seg>ButtonProcessBoxProcessConn3 : trafficLights_impl_Instance.ButtonProcess3.SendButtonSignal -> trafficLights_impl_Instance.BoxProcess.ManageButton3</seg>
       </bo>
       <bendpoints>
-        <point x="404.00653076171875" y="280.0"/>
-        <point x="404.00653076171875" y="310.0"/>
+        <point x="154.0" y="230.0"/>
+        <point x="154.0" y="260.0"/>
       </bendpoints>
     </element>
     <element uuid="e7e04d6d-54a7-4b25-ab80-0230901151a4" manual="true">
@@ -713,8 +713,8 @@
         <seg>ButtonProcessCon3 : trafficLights_impl_Instance.Button3.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess3.GetButtonSignal</seg>
       </bo>
       <bendpoints>
-        <point x="-14.8125" y="343.0"/>
-        <point x="-14.8125" y="280.0"/>
+        <point x="-265.0" y="293.0"/>
+        <point x="-265.0" y="230.0"/>
       </bendpoints>
     </element>
     <element uuid="872c427b-6b38-4f86-bac5-73b9cd38abfe" manual="true">
@@ -724,8 +724,8 @@
         <seg>ButtonProcessCon4 : trafficLights_impl_Instance.Button4.ButtonSignal -> trafficLights_impl_Instance.ButtonProcess4.GetButtonSignal</seg>
       </bo>
       <bendpoints>
-        <point x="-14.8125" y="473.0"/>
-        <point x="-14.8125" y="360.0"/>
+        <point x="-265.0" y="423.0"/>
+        <point x="-265.0" y="310.0"/>
       </bendpoints>
     </element>
     <element uuid="79a5a796-d055-4cb6-956f-073843fc1739" manual="true">
@@ -735,9 +735,9 @@
         <seg>C1 : trafficLights_impl_Instance.Light1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1440.984375" y="125.0"/>
-        <point x="1440.984375" y="467.4444580078125"/>
-        <point x="1466.984375" y="467.4444580078125"/>
+        <point x="1191.0" y="75.0"/>
+        <point x="1191.0" y="417.0"/>
+        <point x="1217.0" y="417.0"/>
       </bendpoints>
     </element>
     <element uuid="d72a2375-07a9-4a7c-aca9-027776eaa191" manual="true">
@@ -747,9 +747,9 @@
         <seg>C2 : trafficLights_impl_Instance.Light2.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1410.984375" y="365.0"/>
-        <point x="1410.984375" y="500.77777099609375"/>
-        <point x="1466.984375" y="500.77777099609375"/>
+        <point x="1161.0" y="315.0"/>
+        <point x="1161.0" y="451.0"/>
+        <point x="1217.0" y="451.0"/>
       </bendpoints>
     </element>
     <element uuid="e2669818-fdca-421a-a546-aff8f6146eb3" manual="true">
@@ -759,9 +759,9 @@
         <seg>C3 : trafficLights_impl_Instance.Light3.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1430.984375" y="205.0"/>
-        <point x="1430.984375" y="478.5555419921875"/>
-        <point x="1466.984375" y="478.5555419921875"/>
+        <point x="1181.0" y="155.0"/>
+        <point x="1181.0" y="429.0"/>
+        <point x="1217.0" y="429.0"/>
       </bendpoints>
     </element>
     <element uuid="e78570eb-1e23-44a1-9255-76194e6160d4" manual="true">
@@ -771,9 +771,9 @@
         <seg>C4 : trafficLights_impl_Instance.Light4.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1420.984375" y="285.0"/>
-        <point x="1420.984375" y="489.66668701171875"/>
-        <point x="1466.984375" y="489.66668701171875"/>
+        <point x="1171.0" y="235.0"/>
+        <point x="1171.0" y="440.0"/>
+        <point x="1217.0" y="440.0"/>
       </bendpoints>
     </element>
     <element uuid="d1af965f-d90c-4293-9dee-bc067d9caf80" manual="true">
@@ -783,11 +783,11 @@
         <seg>C5 : trafficLights_impl_Instance.Button1.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="-14.8125" y="20.0"/>
-        <point x="-14.8125" y="6.0"/>
-        <point x="1460.984375" y="6.0"/>
-        <point x="1460.984375" y="445.22222900390625"/>
-        <point x="1466.984375" y="445.22222900390625"/>
+        <point x="-265.0" y="-30.0"/>
+        <point x="-265.0" y="-44.0"/>
+        <point x="1211.0" y="-44.0"/>
+        <point x="1211.0" y="395.0"/>
+        <point x="1217.0" y="395.0"/>
       </bendpoints>
     </element>
     <element uuid="5f332689-4d91-457c-bc1d-ba2d8defe8db" manual="true">
@@ -797,11 +797,11 @@
         <seg>C6 : trafficLights_impl_Instance.Button2.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="-4.8125" y="150.0"/>
-        <point x="-4.8125" y="17.0"/>
-        <point x="1450.984375" y="17.0"/>
-        <point x="1450.984375" y="456.33331298828125"/>
-        <point x="1466.984375" y="456.33331298828125"/>
+        <point x="-255.0" y="100.0"/>
+        <point x="-255.0" y="-33.0"/>
+        <point x="1201.0" y="-33.0"/>
+        <point x="1201.0" y="406.0"/>
+        <point x="1217.0" y="406.0"/>
       </bendpoints>
     </element>
     <element uuid="f4692e54-f2a5-480c-8114-45106345b108" manual="true">
@@ -811,9 +811,9 @@
         <seg>C7 : trafficLights_impl_Instance.Button3.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1400.984375" y="393.0"/>
-        <point x="1400.984375" y="511.888916015625"/>
-        <point x="1466.984375" y="511.888916015625"/>
+        <point x="1151.0" y="343.0"/>
+        <point x="1151.0" y="462.0"/>
+        <point x="1217.0" y="462.0"/>
       </bendpoints>
     </element>
     <element uuid="4fabef9a-5c16-4eec-a1c3-c17e3ef38937" manual="true">
@@ -823,7 +823,7 @@
         <seg>C8 : trafficLights_impl_Instance.Button4.eth_bus -> trafficLights_impl_Instance.Mag_bus</seg>
       </bo>
       <bendpoints>
-        <point x="1470.984375" y="523.0"/>
+        <point x="1221.0" y="473.0"/>
       </bendpoints>
     </element>
     <element uuid="b04c71e7-ec93-4fc2-994d-5ce5a1d0ab84" manual="true">
@@ -833,9 +833,9 @@
         <seg>eth1 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor1.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="524.111083984375"/>
-        <point x="1587.8345947265625" y="524.111083984375"/>
-        <point x="1587.8345947265625" y="804.111083984375"/>
+        <point x="1332.0" y="474.0"/>
+        <point x="1338.0" y="474.0"/>
+        <point x="1338.0" y="754.0"/>
       </bendpoints>
     </element>
     <element uuid="1e36ead0-2e14-4eff-90b7-8af0096ae86b" manual="true">
@@ -845,9 +845,9 @@
         <seg>eth2 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor2.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="494.111083984375"/>
-        <point x="1617.8345947265625" y="494.111083984375"/>
-        <point x="1617.8345947265625" y="564.111083984375"/>
+        <point x="1332.0" y="444.0"/>
+        <point x="1368.0" y="444.0"/>
+        <point x="1368.0" y="514.0"/>
       </bendpoints>
     </element>
     <element uuid="55e3480b-d684-44d8-a52d-4a8927115a01" manual="true">
@@ -857,9 +857,9 @@
         <seg>eth3 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor3.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="444.111083984375"/>
-        <point x="1587.8345947265625" y="444.111083984375"/>
-        <point x="1587.8345947265625" y="164.11111450195312"/>
+        <point x="1332.0" y="394.0"/>
+        <point x="1338.0" y="394.0"/>
+        <point x="1338.0" y="114.0"/>
       </bendpoints>
     </element>
     <element uuid="a6680a11-ba4f-423a-be52-32b0507a2cca" manual="true">
@@ -869,9 +869,9 @@
         <seg>eth4 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.processor4.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="464.111083984375"/>
-        <point x="1607.8345947265625" y="464.111083984375"/>
-        <point x="1607.8345947265625" y="324.111083984375"/>
+        <point x="1332.0" y="414.0"/>
+        <point x="1358.0" y="414.0"/>
+        <point x="1358.0" y="274.0"/>
       </bendpoints>
     </element>
     <element uuid="05d0c679-61a9-4ce3-ade4-0464288bcf58" manual="true">
@@ -881,9 +881,9 @@
         <seg>EthButtonProcessor1 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor1.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="514.111083984375"/>
-        <point x="1597.8345947265625" y="514.111083984375"/>
-        <point x="1597.8345947265625" y="724.111083984375"/>
+        <point x="1332.0" y="464.0"/>
+        <point x="1348.0" y="464.0"/>
+        <point x="1348.0" y="674.0"/>
       </bendpoints>
     </element>
     <element uuid="33fa0207-9ca3-4283-973e-7a286e30b7e3" manual="true">
@@ -893,7 +893,7 @@
         <seg>EthButtonProcessor2 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor2.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1577.8345947265625" y="484.111083984375"/>
+        <point x="1328.0" y="434.0"/>
       </bendpoints>
     </element>
     <element uuid="9bf3d658-4903-46cb-90aa-607689fb5707" manual="true">
@@ -903,9 +903,9 @@
         <seg>EthButtonProcessor3 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor3.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="454.111083984375"/>
-        <point x="1597.8345947265625" y="454.111083984375"/>
-        <point x="1597.8345947265625" y="244.11111450195312"/>
+        <point x="1332.0" y="404.0"/>
+        <point x="1348.0" y="404.0"/>
+        <point x="1348.0" y="194.0"/>
       </bendpoints>
     </element>
     <element uuid="5c07ef9c-558a-434c-a92a-b481c302e50c" manual="true">
@@ -915,9 +915,9 @@
         <seg>EthButtonProcessor4 : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ButtonProcessor4.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="474.111083984375"/>
-        <point x="1617.8345947265625" y="474.111083984375"/>
-        <point x="1617.8345947265625" y="404.111083984375"/>
+        <point x="1332.0" y="424.0"/>
+        <point x="1368.0" y="424.0"/>
+        <point x="1368.0" y="354.0"/>
       </bendpoints>
     </element>
     <element uuid="3783a2b9-cea4-4a1f-aebb-29d0570a1ddb" manual="true">
@@ -927,9 +927,9 @@
         <seg>EthControlBoxProcessor : trafficLights_impl_Instance.Mag_bus -> trafficLights_impl_Instance.ControlBoxProcessor.eth</seg>
       </bo>
       <bendpoints>
-        <point x="1581.8345947265625" y="504.111083984375"/>
-        <point x="1607.8345947265625" y="504.111083984375"/>
-        <point x="1607.8345947265625" y="644.111083984375"/>
+        <point x="1332.0" y="454.0"/>
+        <point x="1358.0" y="454.0"/>
+        <point x="1358.0" y="594.0"/>
       </bendpoints>
     </element>
     <element uuid="be57f8d2-9f34-4721-8c47-5cfec1589c49" manual="true">
@@ -965,8 +965,8 @@
       <seg>system_instance</seg>
       <seg>/projekt_zaliczeniowy-systemy_czasu_rzeczywistego/instances/sygnalizator_swietlny_trafficlights_impl_instance.aaxl2</seg>
     </bo>
-    <position x="-310.0" y="-60.0"/>
-    <size width="2188.88134765625" height="894.1111111111111"/>
+    <position x="-560.0" y="-110.0"/>
+    <size width="2189.0" height="894.0"/>
   </element>
   <config type="structure" connectionPrimaryLabelsVisible="false">
     <enabledAadlProperties/>
