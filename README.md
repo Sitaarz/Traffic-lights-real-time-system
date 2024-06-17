@@ -4,7 +4,7 @@
 System regulujący ruch samochodowy na skrzyżowaniu przy użyciu sygnalizacji świetlnej
 
 ## Schemat systemu
-![Schemat systemu](./diagrams/system_diagram.png)
+![Schemat systemu](./diagrams/trafficLights_impl_Instance(3).aadl_diagram)
 
 ## Proponowane metody analizy modelu, dostępne w Osate:
 * Bound Resource Budget Analysis Report
